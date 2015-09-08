@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<weblogic-web-app xmlns="http://www.bea.com/ns/weblogic/weblogic-web-app" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bea.com/ns/weblogic/weblogic-web-app http://www.bea.com/ns/weblogic/weblogic-web-app/1.0/weblogic-web-app.xsd">
+  <resource-description>
+    <res-ref-name>jdbc/ds</res-ref-name>
+    <jndi-name>jdbc/myds2</jndi-name>
+  </resource-description>
+  <servlet-descriptor>
+    <servlet-name>EmpInfo</servlet-name>
+  </servlet-descriptor>
+</weblogic-web-app>
